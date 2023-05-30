@@ -11,7 +11,7 @@
  Target Server Version : 50729
  File Encoding         : 65001
 
- Date: 30/05/2023 12:31:02
+ Date: 30/05/2023 19:42:30
 */
 
 SET NAMES utf8mb4;
@@ -45,6 +45,6 @@ CREATE TABLE `literaturetable`  (
 -- ----------------------------
 -- Records of literaturetable
 -- ----------------------------
-INSERT INTO `literaturetable` VALUES (1, '10.1109/ISGT-Asia.2018.8467823', 'Effect of DFIG Wind Farm Fault Currents on the Transformer Differential Relaying Performance', 'DFIG风电场故障电流对变压器差动继电器性能的影响', 'C', 'Huy Nguyen-Duc', 'Yosuke Nakanishi', 'Huy Nguyen-Duc, IEEE member\r\nDepartment of Electric power systems, \r\nHanoi University of Science and Technology \r\nHanoi, Vietnam', '2018 IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)', NULL, 2018, NULL, NULL, 'L4', 'Yes', '9', '2023-05-30 12:27:35');
+INSERT INTO `literaturetable` VALUES (1, '10.1109/ISGT-Asia.2018.8467823', 'Effect of DFIG Wind Farm Fault Currents on the Transformer Differential Relaying Performance', 'DFIG风电场故障电流对变压器差动继电器性能的影响', 'C', 'Huy Nguyen-Duc', 'Yosuke Nakanishi', 'Huy Nguyen-Duc, IEEE member\r\nDepartment of Electric power systems, \r\nHanoi University of Science and Technology \r\nHanoi, Vietnam', '2018 IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)', '', 2018, '本文重在讲述simulink仿真后结果的分析，介绍了DFIG的控制模型和建模过程，差动保护的运行情况。讨论了，在电流互感器饱和与非饱和，有撬棍电路和无撬棍电路情况下的差动电流。发现在故障排除瞬间，差动电流会出现浪涌，使变压器铁芯饱和，导致变压器差动保护元件发出错误的跳闸信号。', '关于DFIG的建模和差动电流不同情况的讨论，涉及低电压穿过的撬棍保护', 'L4', 'Yes', '8', '2023-05-30 12:27:35');
 
 SET FOREIGN_KEY_CHECKS = 1;
